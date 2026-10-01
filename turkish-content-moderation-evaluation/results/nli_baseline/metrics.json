@@ -1,7 +1,0 @@
-{
-  "n": 60,
-  "agreement_count": 29,
-  "accuracy_vs_original_human": 0.48333333333333334,
-  "macro_f1_vs_original_human": 0.39961182212998186,
-  "majority_baseline_accuracy": 0.5666666666666667
-}
