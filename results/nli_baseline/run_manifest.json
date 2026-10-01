@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-09-30T23:36:47.993387+00:00",
+  "model_id": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+  "revision": "8adb042d524ecd5c26d3e3ba0e3fbcf7e2d0864c",
+  "dataset_sha256": "5ddffd51fbe49728e93bae896da02f113dfeec481f945dd8d59120cf07556d9d",
+  "source_filename": "Label.xlsx",
+  "candidate_descriptions": {
+    "Safe": "zararsız bir konuşma, soru, iltifat veya kişiyi aşağılamayan eleştiri",
+    "Harmful": "açık bir hakaret, kişiyi aşağılama, taciz veya zarar tehdidi",
+    "Ambiguous": "zararlı mı zararsız mı olduğu eksik bağlam nedeniyle belirsiz bir ifade"
+  },
+  "hypothesis_template": "Bu metin {} içeriyor.",
+  "multi_label": false,
+  "seed": 42,
+  "device": "cpu",
+  "python": "3.13.15",
+  "packages": {
+    "transformers": "4.57.1",
+    "torch": "2.11.0+cpu",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "huggingface_hub": "0.36.2",
+    "sentencepiece": "0.2.2",
+    "openpyxl": "3.1.5"
+  },
+  "reference": "original human_label; no edits",
+  "limitations": "60 synthetic samples; one annotator; relative uncalibrated scores; NLI model, not generative LLM"
+}

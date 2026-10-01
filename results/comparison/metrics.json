@@ -1,0 +1,106 @@
+[
+  {
+    "method": "NLI baseline",
+    "n": 60,
+    "matches": 29,
+    "agreement_rate": 0.48333333333333334,
+    "macro_f1": 0.399611822129982,
+    "label_order": [
+      "Safe",
+      "Harmful",
+      "Ambiguous"
+    ],
+    "confusion_matrix": [
+      [
+        16,
+        0,
+        18
+      ],
+      [
+        6,
+        1,
+        4
+      ],
+      [
+        3,
+        0,
+        12
+      ]
+    ],
+    "per_class": {
+      "Safe": {
+        "support": 34,
+        "predicted_count": 25,
+        "precision": 0.64,
+        "recall": 0.47058823529411764,
+        "f1": 0.5423728813559322
+      },
+      "Harmful": {
+        "support": 11,
+        "predicted_count": 1,
+        "precision": 1.0,
+        "recall": 0.09090909090909091,
+        "f1": 0.16666666666666666
+      },
+      "Ambiguous": {
+        "support": 15,
+        "predicted_count": 34,
+        "precision": 0.35294117647058826,
+        "recall": 0.8,
+        "f1": 0.4897959183673469
+      }
+    }
+  },
+  {
+    "method": "ChatGPT manual run (version unverified)",
+    "n": 60,
+    "matches": 47,
+    "agreement_rate": 0.7833333333333333,
+    "macro_f1": 0.6987179487179488,
+    "label_order": [
+      "Safe",
+      "Harmful",
+      "Ambiguous"
+    ],
+    "confusion_matrix": [
+      [
+        33,
+        1,
+        0
+      ],
+      [
+        0,
+        11,
+        0
+      ],
+      [
+        11,
+        1,
+        3
+      ]
+    ],
+    "per_class": {
+      "Safe": {
+        "support": 34,
+        "predicted_count": 44,
+        "precision": 0.75,
+        "recall": 0.9705882352941176,
+        "f1": 0.8461538461538461
+      },
+      "Harmful": {
+        "support": 11,
+        "predicted_count": 13,
+        "precision": 0.8461538461538461,
+        "recall": 1.0,
+        "f1": 0.9166666666666666
+      },
+      "Ambiguous": {
+        "support": 15,
+        "predicted_count": 3,
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.3333333333333333
+      }
+    }
+  }
+]

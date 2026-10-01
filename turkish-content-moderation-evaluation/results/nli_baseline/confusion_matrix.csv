@@ -1,0 +1,4 @@
+﻿human_label,Safe,Harmful,Ambiguous
+Safe,16,0,18
+Harmful,6,1,4
+Ambiguous,3,0,12

@@ -1,0 +1,10 @@
+{
+  "interface": "ChatGPT, manual separate conversation",
+  "model_version": "unverified",
+  "run_date": "not independently recorded",
+  "response_provenance": "user-pasted response",
+  "human_labels_in_input": false,
+  "baseline_predictions_in_input": false,
+  "prompt_file": "prompts/manual_llm_input.txt",
+  "limitations": "No API model snapshot, generation settings, or exact timestamp available. Manual transcript cannot guarantee an identical rerun."
+}
